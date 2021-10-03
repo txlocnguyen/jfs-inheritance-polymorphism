@@ -54,20 +54,19 @@ git clone URL-you-Copied-goes-here
     - It should decrease the currentSpeed by 10
     - This method should not allow the currentSpeed to be below 0
 
+### Car class
+- Make your Car class extend the Vehicle class
+  
+- Create an instance variable of type int named numDoors
+  
+- Create a constructor that takes in a numDoors parameter as well as all the parameters from your parent Vehicle class
+    - Invoke the constructor from your Vehicle class (You can use super() to do this)
+    - Be sure to include the necessary parameters in your call to the Vehicle class constructor
+    - From inside your Car constructor, assign the correct value to your numDoors instance variable
+    
+### Moto class
 
 
-
-```bash
-System.out.println("Middle School Roster");
-System.out.println("====================");
-```
-- invoke or run the printStudents method on our class instance
-- Print another empty line if desired for readability
-- Use a for loop to loop thru the given teachers array on the class instance
-- inside the loop
-    - create a new variable that stores the result of "Teacher: " +
-      teachers name from the array using the counter variable
-    - Print the new variable as output
 - After
 ```bash
 System.out.println("\nStudent Grades:\n");
