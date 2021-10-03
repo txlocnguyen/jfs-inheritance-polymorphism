@@ -2,7 +2,7 @@ package com.alain.inheritance;
 
 public class Vehicle {
     private int topSpeed;
-    private int currentSpeed;
+    private int currentSpeed = 0;
     private String color;
     private String make;
     private String model;
@@ -10,7 +10,6 @@ public class Vehicle {
 
     public Vehicle(int topSpeed, String color, String make, String model, boolean isElectric) {
         this.topSpeed = topSpeed;
-        this.currentSpeed = 0;
         this.color = color;
         this.make = make;
         this.model = model;
