@@ -61,21 +61,25 @@ git clone URL-you-Copied-goes-here
   
 - Create a constructor that takes in a numDoors parameter as well as all the parameters from your parent Vehicle class
     - Invoke the constructor from your Vehicle class (You can use super() to do this)
-    - Be sure to include the necessary parameters in your call to the Vehicle class constructor
+    - Be sure to include the necessary parameters in your call to the parent Vehicle class constructor
     - From inside your Car constructor, assign the correct value to your numDoors instance variable
     
+- Create a getter and setter for your instance variable numDoors
+    
 ### Moto class
+- Make your Moto class extend the Vehicle class
 
+- Create an instance variable of type int named numOfSeats
 
-- After
-```bash
-System.out.println("\nStudent Grades:\n");
-```
-- Use a for loop to loop thru students ArrayList on the class instance
-- inside the loop
-    - pass the counter variable as an index to the printStudentGrades method
-      to print each students info
-    - Print a new line if you want it to look presentable
+- Create a constructor that takes in a numOfSeats parameter as well as all the parameters from your parent Vehicle class
+    - Invoke the constructor from your Vehicle class (You can use super() to do this)
+    - Be sure to include the necessary parameters in your call to the parent Vehicle class constructor
+    - From inside your Moto constructor, assign the correct value to your numOfSeats instance variable
+    
+- Create a getter and setter for you instance variable numOfSeats
+
+- Override the increaseSpeed() method of the parent class. Make the increaseSpeed() method in Moto increase the speed by
+  20 instead of by 10
 
 <br>
 
@@ -87,7 +91,7 @@ git commit -m “Adds solutions to activity”
 git push -u origin main
 ```
 - Go to your GitHub repository. You should see your changes.
-- If you want you can submit a PR to merge changes
+- Submit your pull request with your solution
   <br>
 
 ## If you finish early, consider adding some additional functionality. Be original, add some of your own functionality to the application.
