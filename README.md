@@ -80,6 +80,31 @@ git clone URL-you-Copied-goes-here
 
 - Override the increaseSpeed() method of the parent class. Make the increaseSpeed() method in Moto increase the speed by
   20 instead of by 10
+  
+## Main class
+- Create an instance of your Car class and name it carOne. Pass in the appropriate arguments
+
+- Create an instance of your Moto class and name it motoOne. Pass in the appropriate arguments   
+        
+- Call increaseSpeed() on carOne.   
+        
+- Using System.out.println print the current speed of carOne (You will need to use your getter for currentSpeed here)        
+        
+- Call decreaseSpeed() on carOne.              
+
+- Using System.out.println print the current speed of carOne (You will need to use your getter for currentSpeed here)        
+        
+- Call increaseSpeed() on motoOne.        
+        
+- Using System.out.println print the current speed of motoOne (You will need to use your getter for currentSpeed here)
+
+- Call decreaseSpeed() on motoOne.
+
+- Using System.out.println print the current speed of motoOne (You will need to use your getter for currentSpeed here)        
+       
+- Try to increase the speed of motoOne above its max speed. This should not be allowed.
+
+- Try to decrease the speed of motoOne below 0. This should not be allowed.
 
 <br>
 
