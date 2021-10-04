@@ -54,7 +54,7 @@ git clone URL-you-Copied-goes-here
     - It should decrease the currentSpeed by 10
     - This method should not allow the currentSpeed to be below 0
 
-### Car class
+## Car class
 - Make your Car class extend the Vehicle class
   
 - Create an instance variable of type int named numDoors
@@ -66,7 +66,7 @@ git clone URL-you-Copied-goes-here
     
 - Create a getter and setter for your instance variable numDoors
     
-### Moto class
+## Moto class
 - Make your Moto class extend the Vehicle class
 
 - Create an instance variable of type int named numOfSeats
