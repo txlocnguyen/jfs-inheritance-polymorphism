@@ -1,5 +1,5 @@
-# jfs-inheritance-polymorphism
-
+# <a href="https://github.com/txlocnguyen/jfs-inheritance-polymorphism/tree/main/src/com/alain/inheritance">jfs-inheritance-polymorphism</a>
+Finished. View code <a href="https://github.com/txlocnguyen/jfs-inheritance-polymorphism/tree/main/src/com/alain/inheritance">here</a><br/>
 Lesson on Java Inheritance & Polymorphism
 ## Directions to Clone and load in IntelliJ
 
